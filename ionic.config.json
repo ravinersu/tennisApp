@@ -1,0 +1,7 @@
+{
+  "name": "Tennis55",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
