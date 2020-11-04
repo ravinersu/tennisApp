@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tennis55</string>
+    <string name="title_activity_main">Tennis55</string>
+    <string name="package_name">io.ionic.starter</string>
+    <string name="custom_url_scheme">io.ionic.starter</string>
+    <string name="facebook_app_id">665819244053016</string>
+    <string name="fb_login_protocol_scheme">fb665819244053016</string>
+
+</resources>

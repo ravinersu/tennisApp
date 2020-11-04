@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar color="whatsscore">    
+    <ion-back-button slot="start" defaultHref="matches"></ion-back-button>     
+    <ion-title> Live Scoring </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-row>
+    <ion-col size="8"></ion-col>
+    <ion-col size="4">
+      <ion-button color="whatsscore" class="statistics-btn">View match statistics</ion-button>
+    </ion-col>
+  </ion-row>
+  <ion-grid>
+    <ion-row >
+      <ion-col [ngClass]="{'highlight-serving-player': playerOneServing}" size="5">
+       Ravi Kumar Nersu
+      </ion-col>
+      <ion-col [ngClass]="{'bold-player-score': setOneWinnerIsPlayerOne}" size="1">
+        {{playerScoring .playerOneSetOnePoints}}
+      </ion-col>
+      <ion-col size="1">
+        {{playerScoring .playerOneSetTwoPoints}}
+      </ion-col>
+      <ion-col size="1">
+        {{playerScoring .playerOneSetThreePoints}}
+      </ion-col>
+      <ion-col size="2">
+        <ion-text class="scoring-col">
+          {{playerScoring .playerOneGamePoints}}
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class="scores-row"></ion-row>
+    <ion-row >
+      <ion-col [ngClass]="{'highlight-serving-player': !playerOneServing}" size="5">
+        Kalyan Nersu
+      </ion-col>
+      <ion-col size="1">
+        {{playerScoring .playerTwoSetOnePoints}}
+      </ion-col>
+      <ion-col size="1">
+        {{playerScoring .playerTwoSetTwoPoints}}
+      </ion-col>
+      <ion-col size="1">
+        {{playerScoring .playerTwoSetThreePoints}}
+      </ion-col>
+      <ion-col size="2">
+        <ion-text class="scoring-col">{{playerScoring .playerTwoGamePoints}}</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-row>
+          <ion-text class="scoring-player-name">  Ravi Kumar Nersu </ion-text>
+        </ion-row>
+        <ion-button (click)="updateScore('playerOneWin')" expand="full" class="scoring-btn">WIN</ion-button>
+        <ion-button *ngIf="playerOneServing" (click)="updateScore('playerOneAce')" expand="full" class="scoring-btn">ACE</ion-button>
+        <ion-button  (click)="updateScore('playerOneFault')" *ngIf="!doubleFault && playerOneServing" expand="full" class="scoring-btn">FAULT</ion-button>
+        <ion-button (click)="updateScore('playerOneDoubleFault')" *ngIf="doubleFault && playerOneServing" expand="full" class="scoring-btn">DOUBLE FAULT</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-row>
+          <ion-text class="scoring-player-name">Kalyan Nersu</ion-text>
+        </ion-row>
+        <ion-button (click)="updateScore('playerTwoWin')" expand="full" class="scoring-btn">WIN</ion-button>
+        <ion-button (click)="updateScore('playerTwoAce')" *ngIf="!playerOneServing" expand="full" class="scoring-btn">ACE</ion-button>
+        <ion-button (click)="updateScore('playerTwoFault')"*ngIf="!doubleFault && !playerOneServing" expand="full" class="scoring-btn">FAULT</ion-button>
+        <ion-button (click)="updateScore('playerTwoDoubleFault')" *ngIf="doubleFault && !playerOneServing" expand="full" class="scoring-btn">DOUBLE FAULT</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+</ion-content>

@@ -1,7 +1,9 @@
 {
   "name": "Tennis55",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "id": "94af0772"
 }

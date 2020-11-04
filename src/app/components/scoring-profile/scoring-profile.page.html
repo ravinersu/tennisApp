@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar color="whatsscore">    
+    <ion-back-button slot="start" defaultHref="new-match"></ion-back-button>     
+    <ion-title>Scoring Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <form [formGroup]="form">  
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" offset-sm=2>
+          <ion-item>              
+            <ion-label position="floating"> Profile Name </ion-label>
+            <ion-input formControlName="profileName" type="text" autocomplete autocorrect ></ion-input>
+          </ion-item>
+              
+<!--============================ Sets /Match ================================== -->
+        </ion-col>
+        <ion-col size="6">
+          <h4>Sets /Match</h4>
+          <mat-form-field >
+            <mat-label></mat-label>
+            <mat-select>
+              <mat-option *ngFor="let setsMatch of setPerMatch" [value]="setsMatch.value">
+                {{setsMatch.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+      
+<!--============================ Games /Set ============================-->
+        </ion-col>
+        <ion-col size="6">
+          <h4>Games /Set</h4>
+          <mat-form-field >
+            <mat-label></mat-label>
+            <mat-select>
+              <mat-option *ngFor="let gamesMatch of gamesMatch" [value]="gamesMatch.value">
+                {{gamesMatch.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+<!--============================ Standard tie Break Rule ============================-->
+        </ion-col>
+        <ion-col size="6">
+          <h4>Standard tie Break Rule</h4>
+          <mat-form-field >
+            <mat-label></mat-label>
+            <mat-select>
+              <mat-option *ngFor="let standardTieBreak of standardTieBreakRule" [value]="standardTieBreak.value">
+                {{standardTieBreak.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+<!--============================ Tie-Break Points ============================-->
+        </ion-col>
+        <ion-col size="6">
+          <h4>Tie-Break Points</h4>
+          <mat-form-field >
+            <mat-label></mat-label>
+            <mat-select>
+              <mat-option *ngFor="let tieBreakPoints of TieBreakPoints" [value]="tieBreakPoints.value">
+                {{tieBreakPoints.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+      
+<!--============================ Final Set Rule ============================-->
+        </ion-col>
+        <ion-col size="10">
+          <h4>Final Set Rule</h4>
+          <mat-form-field >
+            <mat-label></mat-label>
+            <mat-select>
+              <mat-option *ngFor="let finalSetRule of FinalSetRule" [value]="finalSetRule.value">
+                {{finalSetRule.viewValue}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    </form>
+
+    <ion-item>
+    <p class="decidingText">Deciding Point (No Advantage Point On Deuce) </p> <!-- Deciding Point -->
+    <ion-checkbox color="whatsscore" checked slot="start"></ion-checkbox>
+  </ion-item>
+
+  <!-- ============================ Add And Reset Buttons ============================ -->
+  <ion-grid>
+     <ion-row>
+     <ion-col size ="6"> <ion-button class="btn" color="play" type="submit" > Add</ion-button> <!-- Add Button -->
+     </ion-col>
+     <ion-col size ="6"><ion-button class="btn" color="play" (click)="reset()" full > Reset</ion-button>   <!-- Reset Button -->
+     </ion-col>   
+    </ion-row>   
+     </ion-grid>
+</ion-content>

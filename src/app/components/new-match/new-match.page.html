@@ -1,0 +1,97 @@
+<ion-header>
+  <ion-toolbar color="whatsscore">
+    
+    <ion-back-button slot="start" defaultHref="home-screen"></ion-back-button>
+     
+    <ion-title>New Match</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <form>
+
+  <!-- Player - 1 Starts=========================================================================================================== -->
+
+<h2>Player - 1</h2>
+<mat-form-field class="form-field-width" >
+  <mat-label>Select Player</mat-label>
+  <mat-select  [formControl]="animalControl" required>
+    <mat-option (click)="redirectToMatch()" > Add New Player </mat-option>
+    <mat-option *ngFor="let animal of animal" [value]="animal">
+      {{animal.name}}
+    </mat-option>
+  </mat-select>
+    <mat-hint>{{animalControl.value?.sound}}</mat-hint>
+</mat-form-field>
+<!--===== Player 1 Ends=========== -->
+
+<!-- =============================================================================================================================== -->
+
+<!-- Player - 2 Starts -->
+<h2>Player - 2 </h2>
+<mat-form-field class="form-field-width">
+  <mat-label>Select Player</mat-label>
+  <mat-select   [formControl]="animalControl" required>
+    <mat-option (click)="redirectToMatch()" >Add New Player </mat-option>
+    <mat-option *ngFor="let animal of animal" [value]="animal">
+      {{animal.name}}
+    </mat-option>
+  </mat-select>
+  <!-- <mat-error *ngIf="animalControl.hasError('required')">Select Player 2</mat-error> -->
+  <mat-hint>{{animalControl.value?.sound}}</mat-hint>
+</mat-form-field>
+
+<!-- Player - 2 Ends-->
+<!-- ================================================================================================================================ -->
+
+<!-- Scoring profile Starts  -->
+<h2>Scoring Profile</h2>
+<mat-form-field class="form-field-width">
+  <mat-label>Select Scoring Profile</mat-label>
+  <mat-select class=""  #mySelect  [formControl]="animalControl" required>
+    <mat-option (click)="redirectToScoringProfile()">Add Scoring Profile  </mat-option>
+    <mat-option *ngFor="let animal of animal" [value]="animal">
+      {{animal.name}}
+    </mat-option>
+  </mat-select>
+  <!-- <mat-error *ngIf="animalControl.hasError('required')">Select Scoring Profile</mat-error> -->
+  <mat-hint>{{animalControl.value?.sound}}</mat-hint>
+</mat-form-field>
+<br>
+<!-- Scoring Profile Ends -->
+
+<!-- ========================================================================================================================== -->
+<!-- Basic and andvance Radio Buttons Starts-->
+
+  <ion-radio-group allow-empty-selection value="anchovies">
+    
+    <ion-item>
+      <ion-label class="scoring-radio-heading">Basic</ion-label>
+      <ion-radio slot="start" color="whatsscore" value="basic"></ion-radio>
+    </ion-item>
+    
+    <p class="scoring-radio-btn1"> Simple Scoring to track Aces, Double faults and Winners </p>
+   
+
+  <ion-item>
+    <ion-label class="scoring-radio-heading" >Advance</ion-label>
+    <ion-radio slot="start" color="whatsscore" value="advance"></ion-radio>
+  </ion-item>
+  
+  <p class="scoring-radio-btn"> Track Aces, Double faults, Winners, Forced errors, Unforced errors, Forehand, Backhand and Returns
+  
+</ion-radio-group>
+<!-- Basic and andvance Radio Buttons Ends -->
+
+</form>
+<!--===================================Form End -->
+</ion-content>
+
+<!-- =====Footer Starts======================================================================================================== -->
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button class="playnowbtn" color="play" routerLink="/live-scoring" > Play Now </ion-button>
+  </ion-toolbar>
+</ion-footer>
+<!-- =====Footer Ends======================================================================================================== -->

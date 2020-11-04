@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1295px" height="192px" viewBox="0 0 1295 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4.50365809" y="5.12290503" width="130.606085" height="179.301676" rx="5"></rect>
+        <filter x="-0.4%" y="-0.8%" width="100.8%" height="101.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.474509804   0 0 0 0 0.474509804   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#666666" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="50.0067009%"></stop>
+            <stop stop-color="#666666" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="3.75304841" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-5" x="129.855475" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-6" x="4.50365809" y="5.12290503" width="130.606085" height="179.301676" rx="5"></rect>
+        <filter x="-0.4%" y="-0.8%" width="100.8%" height="101.1%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.474509804   0 0 0 0 0.474509804   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="3.75304841" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-9" x="129.855475" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-10" x="4.50365809" y="5.12290503" width="130.606085" height="179.301676" rx="5"></rect>
+        <filter x="-0.4%" y="-0.8%" width="100.8%" height="101.1%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.474509804   0 0 0 0 0.474509804   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-12" x="3.75304841" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-13" x="129.855475" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-14" x="4.50365809" y="5.12290503" width="130.606085" height="179.301676" rx="5"></rect>
+        <filter x="-0.4%" y="-0.8%" width="100.8%" height="101.1%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.474509804   0 0 0 0 0.474509804   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-16" x="3.75304841" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-17" x="129.855475" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-18" x="4.50365809" y="5.12290503" width="130.606085" height="179.301676" rx="5"></rect>
+        <filter x="-0.4%" y="-0.8%" width="100.8%" height="101.1%" filterUnits="objectBoundingBox" id="filter-19">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.474509804   0 0 0 0 0.474509804   0 0 0 0 0.474509804  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-20" x="3.75304841" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+        <rect id="path-21" x="129.855475" y="74.6480447" width="6.00487746" height="40.9832402"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-copy-4" transform="translate(-253.000000, -107.000000)">
+            <g id="Group" transform="translate(203.000000, 58.000000)">
+                <g id="score" transform="translate(603.000000, 51.000000)">
+                    <g id="S">
+                        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="139.613401" height="189.547486" rx="15"></rect>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#434344" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#000000" stroke-width="1" x="4.25304841" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#000000" stroke-width="1" x="130.355475" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <path d="M104.815136,67.549162 L104.815136,58.2254749 C104.815136,40.5294972 90.1782472,28.5418994 69.4914444,28.5418994 C48.609483,28.5418994 33.7774357,40.1489385 33.7774357,58.2254749 C33.7774357,76.4922905 39.2418742,80.6784358 52.1223363,95.5202235 L72.4188221,115.880112 C77.4929436,121.588492 80.4203213,126.916313 80.4203213,133.956648 C80.4203213,141.758101 75.5413584,146.134525 69.4914444,146.134525 C63.2463718,146.134525 58.5625674,142.138659 58.5625674,133.956648 L58.5625674,121.588492 L33.9725942,121.588492 L33.9725942,135.478883 C33.9725942,154.506816 49.7804341,165.352737 69.4914444,165.352737 C89.0072961,165.352737 105.59577,154.697095 105.59577,135.478883 C105.59577,119.685698 99.545856,112.455084 89.7879302,101.609162 L65.3931155,74.3992179 C59.7335185,68.12 58.5625674,63.7435754 58.5625674,58.0351955 C58.5625674,51.946257 63.2463718,47.5698324 69.4914444,47.5698324 C75.3461999,47.5698324 80.4203213,52.7073743 80.4203213,62.0310615 L80.4203213,67.549162 L104.815136,67.549162 Z" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-4" fill="#000000" x="9.75792587" y="93.6759777" width="120.097549" height="2.9273743"></rect>
+                    </g>
+                    <g id="C" transform="translate(150.872546, 0.000000)">
+                        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="139.613401" height="189.547486" rx="15"></rect>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use fill="#434344" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#000000" stroke-width="1" x="4.25304841" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <rect stroke="#000000" stroke-width="1" x="130.355475" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <path d="M106.571563,65.953743 L106.571563,55.4883799 C106.571563,41.9785475 95.4475272,25.6145251 70.857554,25.6145251 C43.9256786,25.6145251 33.7774357,41.9785475 33.7774357,55.4883799 L33.7774357,132.551508 C33.7774357,145.871061 43.9256786,162.235084 70.857554,162.235084 C95.4475272,162.235084 106.571563,145.871061 106.571563,132.361229 L106.571563,121.895866 L81.9815895,121.895866 L81.9815895,132.361229 C81.9815895,136.357095 77.8832606,143.207151 70.857554,143.207151 C62.2705792,143.207151 58.5625674,136.357095 58.5625674,132.361229 L58.5625674,55.4883799 C58.5625674,51.492514 62.2705792,44.6424581 70.857554,44.6424581 C77.8832606,44.6424581 81.9815895,51.492514 81.9815895,55.4883799 L81.9815895,65.953743 L106.571563,65.953743 Z" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-4" fill="#000000" x="9.75792587" y="93.6759777" width="120.097549" height="2.9273743"></rect>
+                    </g>
+                    <g id="O" transform="translate(300.994482, 0.000000)">
+                        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="139.613401" height="189.547486" rx="15"></rect>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                            <use fill="#434344" fill-rule="evenodd" xlink:href="#path-10"></use>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <rect stroke="#000000" stroke-width="1" x="4.25304841" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            <rect stroke="#000000" stroke-width="1" x="130.355475" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <path d="M71.0226881,25.6145251 C95.4175028,25.6145251 106.34638,41.5979888 106.34638,55.2981006 L106.34638,132.17095 C106.34638,145.871061 95.4175028,162.235084 71.0226881,162.235084 C44.0908127,162.235084 34.5280454,145.871061 34.5280454,132.17095 L34.5280454,55.2981006 C34.5280454,41.5979888 44.0908127,25.6145251 71.0226881,25.6145251 Z M81.9515651,131.790391 L81.9515651,55.4883799 C81.9515651,51.492514 78.0483947,44.2618994 71.0226881,44.2618994 C62.4357133,44.2618994 58.92286,51.492514 58.92286,55.1078212 L58.92286,131.790391 C58.92286,136.166816 62.4357133,143.207151 71.0226881,143.207151 C78.0483947,143.207151 81.9515651,135.786257 81.9515651,131.790391 Z" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-4" fill="#000000" x="9.75792587" y="93.6759777" width="120.097549" height="2.9273743"></rect>
+                    </g>
+                    <g id="R" transform="translate(451.867029, 0.000000)">
+                        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="139.613401" height="189.547486" rx="15"></rect>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                            <use fill="#434344" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-16"></use>
+                            <rect stroke="#000000" stroke-width="1" x="4.25304841" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-17"></use>
+                            <rect stroke="#000000" stroke-width="1" x="130.355475" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <path d="M109.874245,161.73743 L84.503638,161.73743 L61.2797744,108.078659 L53.4734337,108.078659 L53.4734337,161.73743 L29.2737776,161.73743 L29.2737776,28.5418994 L70.0619077,28.5418994 C93.4809298,28.5418994 104.604965,45.2864804 104.604965,66.5977654 C104.604965,86.3868156 95.822832,99.1355307 84.113321,104.843911 L109.874245,161.73743 Z M53.4734337,47.5698324 L53.4734337,87.9090503 L61.2797744,87.9090503 C77.0876143,87.9090503 81.3811017,86.006257 81.3811017,66.5977654 C81.3811017,55.9421229 78.844041,47.5698324 69.2812736,47.5698324 L53.4734337,47.5698324 Z" fill="#FFFFFF"></path>
+                        <rect id="Rectangle-4" fill="#000000" x="9.75792587" y="93.6759777" width="120.097549" height="2.9273743"></rect>
+                    </g>
+                    <g id="E" transform="translate(601.988965, 0.000000)">
+                        <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="139.613401" height="189.547486" rx="15"></rect>
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
+                            <use fill="#434344" fill-rule="evenodd" xlink:href="#path-18"></use>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-20"></use>
+                            <rect stroke="#000000" stroke-width="1" x="4.25304841" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <g id="Rectangle-3">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-21"></use>
+                            <rect stroke="#000000" stroke-width="1" x="130.355475" y="75.1480447" width="5.00487746" height="39.9832402"></rect>
+                        </g>
+                        <polygon fill="#FFFFFF" points="97.9695757 47.5698324 97.9695757 28.5418994 39.0317035 28.5418994 39.0317035 161.73743 100.701795 161.73743 100.701795 142.709497 63.4265181 142.709497 63.4265181 99.3258101 88.2116498 99.3258101 88.2116498 80.2978771 63.4265181 80.2978771 63.4265181 47.5698324"></polygon>
+                        <rect id="Rectangle-4" fill="#000000" x="9.75792587" y="93.6759777" width="120.097549" height="2.9273743"></rect>
+                    </g>
+                </g>
+                <text id="what’s" font-family="Lobster-Regular, Lobster" font-size="200" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="52.5253906" y="200">what’s</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

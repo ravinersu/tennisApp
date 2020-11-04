@@ -1,8 +1,84 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$app-primary: mat-palette($mat-indigo);
+$app-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$app-warn: mat-palette($mat-red);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$app-theme: mat-light-theme((
+  color: (
+    primary: $app-primary,
+    accent: $app-accent,
+    warn: $app-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($app-theme);
+
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
 :root {
+  //play
+  --ion-color-play: #f57129;
+  --ion-color-play-rgb: 245,113,41;
+  --ion-color-play-contrast: #fff;
+  --ion-color-play-contrast-rgb: 0,0,0;
+  --ion-color-play-shade: #d86324;
+  --ion-color-play-tint: #f67f3e;
+
+
+.ion-color-play {
+  --ion-color-base: var(--ion-color-play);
+  --ion-color-base-rgb: var(--ion-color-play-rgb);
+  --ion-color-contrast: var(--ion-color-play-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-play-contrast-rgb);
+  --ion-color-shade: var(--ion-color-play-shade);
+  --ion-color-tint: var(--ion-color-play-tint);
+}
+  
+
+
+  //whatsscore
+  
+    --ion-color-whatsscore: #2e7d32;
+    --ion-color-whatsscore-rgb: 46,125,50;
+    --ion-color-whatsscore-contrast: #ffffff;
+    --ion-color-whatsscore-contrast-rgb: 255,255,255;
+    --ion-color-whatsscore-shade: #286e2c;
+    --ion-color-whatsscore-tint: #438a47;
+ 
+  
+  .ion-color-whatsscore {
+    --ion-color-base: var(--ion-color-whatsscore);
+    --ion-color-base-rgb: var(--ion-color-whatsscore-rgb);
+    --ion-color-contrast: var(--ion-color-whatsscore-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-whatsscore-contrast-rgb);
+    --ion-color-shade: var(--ion-color-whatsscore-shade);
+    --ion-color-tint: var(--ion-color-whatsscore-tint);
+  }
+
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -76,7 +152,7 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   /*
    * Dark Colors
    * -------------------------------------------
@@ -155,7 +231,6 @@
   .ios body {
     --ion-background-color: #000000;
     --ion-background-color-rgb: 0,0,0;
-
     --ion-text-color: #ffffff;
     --ion-text-color-rgb: 255,255,255;
 
@@ -230,3 +305,5 @@
     --ion-card-background: #1e1e1e;
   }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
